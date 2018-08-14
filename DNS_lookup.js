@@ -1,3 +1,5 @@
+// Write a program that prompts the user for a domain name, looks up the IP address for the domain, and prints it out.
+
 var dns = require('dns');
 var readline = require('readline');
 
