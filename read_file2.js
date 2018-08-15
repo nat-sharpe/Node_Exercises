@@ -3,6 +3,7 @@
 
 var fs = require('fs');
 var readline = require('readline');
+var promisify = require('util').promisify;
 
 var readlineInterface = readline.createInterface({
     input: process.stdin,

@@ -21,6 +21,7 @@ boxMaker.box(5, 8, '*', ' ');
 
 var encrypted = caesarMaker.cipher('I am the master of my fate, I am the captain of my soul.', 10);
 console.log(encrypted);
+
 var solved = caesarMaker.cipher(encrypted, -10);
 console.log(solved);
 
